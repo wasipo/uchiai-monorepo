@@ -1,0 +1,29 @@
+# Node.js関連
+node_modules
+
+# pnpmロックファイルキャッシュ
+.pnpm
+.pnpm-store
+
+# distやビルド成果物（NestJSなどのビルド出力）
+**/dist
+
+# Next.jsビルド成果物
+apps/frontend/.next
+apps/frontend/out
+
+# TypeScriptキャッシュファイル
+**/.tsbuildinfo
+
+# IDE関連
+.idea
+.vscode
+
+# OS固有ファイル
+.DS_Store
+Thumbs.db
+
+# 環境変数ファイル
+.env
+.env.local
+.env.*.local
