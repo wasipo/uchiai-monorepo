@@ -5,6 +5,9 @@ node_modules
 .pnpm
 .pnpm-store
 
+# ロックファイル
+pnpm-lock.yaml
+
 # distやビルド成果物（NestJSなどのビルド出力）
 **/dist
 
@@ -18,6 +21,7 @@ apps/frontend/out
 # IDE関連
 .idea
 .vscode
+uchiai-monorepo.iml
 
 # OS固有ファイル
 .DS_Store
