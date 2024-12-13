@@ -7,17 +7,17 @@
     "dev:backend": "pnpm --filter backend dev",
     "dev:frontend": "pnpm --filter frontend dev",
     "dev": "pnpm dev:backend & pnpm dev:frontend",
-    "lint": "pnpm eslint . --ext .ts,.tsx",
+    "lint": "pnpm eslint .",
     "format": "pnpm prettier --write ."
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@next/eslint-plugin-next": "^15.1.0",
     "@typescript-eslint/eslint-plugin": "^8.18.0",
     "@typescript-eslint/parser": "^8.18.0",
     "eslint": "^9.16.0",
-    "eslint-config-next": "^15.1.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-prettier": "^5.2.1"
   }
